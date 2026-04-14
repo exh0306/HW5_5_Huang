@@ -9,6 +9,7 @@ public class CaesarCipherFrequencyAnalysis {
             'ض','ط','ظ','ع','غ','ف','ق','ك','ل','م','ن','ه','و','ي'
     };
 
+    // Relative frequency (%) of each letter in Arabic
     private static final double[] ARABIC_FREQUENCIES = {
             11.6, 4.8, 3.7, 1.1, 2.8, 2.6, 1.1, 3.5, 1.0, 4.7,
             0.9, 6.5, 3.0, 2.9, 1.5, 1.7, 0.7, 3.9, 1.0, 3.0,
