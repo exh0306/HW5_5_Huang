@@ -1,15 +1,25 @@
 package hw5;
 
+// JSON array (list)
 import org.json.JSONArray;
+// JSON object (key-value)
 import org.json.JSONObject;
 
+// Reads text input
 import java.io.BufferedReader;
+// Converts bytes to text
 import java.io.InputStreamReader;
+// Sends data out
 import java.io.OutputStream;
+// Makes HTTP requests
 import java.net.HttpURLConnection;
+// Web address
 import java.net.URL;
+// Encodes URL text
 import java.net.URLEncoder;
+// UTF-8 text format
 import java.nio.charset.StandardCharsets;
+
 
 public class GoogleTranslate {
 
