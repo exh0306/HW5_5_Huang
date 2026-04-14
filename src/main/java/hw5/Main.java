@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Create Scanner to read user input from keyboard
         Scanner scanner = new Scanner(System.in, "UTF-8");
 
+        // Prompt user for Google API key
         System.out.print("Enter the API Key: ");
         String apiKey = scanner.nextLine();
 
+        // Prompt user for text to translate
         System.out.print("Enter the plaintext: ");
         String plaintext = scanner.nextLine();
 
